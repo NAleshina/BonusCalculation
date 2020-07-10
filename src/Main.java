@@ -1,11 +1,11 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
-        int cash = 2000;
-        int balans = 100;
+        float cash = 100.7F;
+        float balans = 100;
         int bonus;
-        int total;
+        float total;
         if (cash > 1000) {
-            bonus = cash / 100;
+            bonus = (int) cash / 100;
             total = balans + cash + bonus;
             System.out.println("Вам начислено " + bonus +" бонусов" );
         }
